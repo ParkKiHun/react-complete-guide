@@ -68,4 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# react-complete-guide" 
+"# react-complete-guide"
+
+### 46. 컴포넌트 파일 구성하기
+
+특정 기능을 가진 컴포넌트 별로 폴더 구성
+
+- UI
+- Expense
