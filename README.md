@@ -75,4 +75,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 특정 기능을 가진 컴포넌트 별로 폴더 구성
 
 - UI
-- Expense
+- Expenses
+
+### 47.대체 함수 문법(syntax)
+
+**Arrow function expressions**
+
+Function abc (props) {} = const abc = (props) => {}
+
+간편해서 사용하는 문법 선호하지 않으면 사용 할 필요 없음
