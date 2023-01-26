@@ -26,11 +26,7 @@ function App() {
     <div>
       <h2>Let's get started!</h2>
       {expenses.map((item) => (
-        <ExpenseItem
-          title={item.title}
-          amount={item.amount}
-          date={item.date}
-        ></ExpenseItem>
+        <ExpenseItem title={item.title} amount={item.amount} date={item.date} />
       ))}
       ;
     </div>
