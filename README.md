@@ -87,7 +87,7 @@ Function abc (props) {} ==> const abc = (props) => {}
 
 ### 49. 모듈 소개
 
-- Handleing Events
+- Handling Events
 - Updating the UI & Working with "State"
 - A Closer Look At Components & State
 
