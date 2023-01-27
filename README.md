@@ -84,3 +84,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 Function abc (props) {} ==> const abc = (props) => {}
 
 간편해서 사용하는 문법 선호하지 않으면 사용 할 필요 없음
+
+### 49. 모듈 소개
+
+- Handleing Events
+- Updating the UI & Working with "State"
+- A Closer Look At Components & State
