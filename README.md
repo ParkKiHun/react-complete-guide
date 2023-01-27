@@ -90,3 +90,18 @@ Function abc (props) {} ==> const abc = (props) => {}
 - Handleing Events
 - Updating the UI & Working with "State"
 - A Closer Look At Components & State
+
+### 52. "State"와 함께 일하기
+
+state 함수를 호출하는 것은 어떤 변수에 새로운 값을 할당하는 것이 아니라 메모리 어딘가에서 리액트로 관리한다.
+
+실행 후 그 다음에서 바로 html 값이 변하는게 아님
+setTitle("Updated!");
+console.log(title);
+
+### 53. "useState" 훅 자세히 살펴보기
+
+1. State는 컴포넌트의 인스턴스별로 나뉘어져 있다.
+2. State가 업데이트되면 재 실행 된다.
+3. 동일한 컴포넌트를 여러개 만들었다고 모두가 한번에 변경되지 않는다.
+4. State는 모두 개별로 존재한다.
