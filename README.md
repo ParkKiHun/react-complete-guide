@@ -81,6 +81,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 **Arrow function expressions**
 
-Function abc (props) {} = const abc = (props) => {}
+Function abc (props) {} ==> const abc = (props) => {}
 
 간편해서 사용하는 문법 선호하지 않으면 사용 할 필요 없음
