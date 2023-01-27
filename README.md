@@ -111,3 +111,16 @@ console.log(title);
 지금까지, 우리는 유저 이벤트 발생 시 상태를 업데이트 했습니다 (예: click)\
 이는 매우 일반적이지만 상태 업데이트에 꼭 필요한 것은 아닙니다. 어떤 이유로든 상태를 업데이트할 수 있습니다.\
 코스 후반부에서, 완료된 Http 요청을 볼 수 있지만(여기서 반환된 Http 응답을 기반으로 상태를 업데이트하려고 함) 타이머가 만료되어 상태를 업데이트할 수도 있습니다 ( setTimeout()으로 설정).
+
+### 59. 이전 State에 의존하는 State 업데이트
+
+가장 최신 상태를 보장하지 않음\
+setUserInput({\
+ ...userInput,\
+ enterTitle: event.target.value,\
+ });
+
+상태 업데이트가 이전 상태에 의존하고 있다면 해당 함수 폼을 사용\
+setUserInput((prevState) => {\
+ return { ...prevState, enterTitle: event.target.value };\
+ });
