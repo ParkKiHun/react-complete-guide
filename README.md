@@ -70,6 +70,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 "# react-complete-guide"
 
+### Git Cache 삭제 실행
+
+git rm -r --cached .\
+git add.\
+git commit -m "cache clear"
+
 ### 46. 컴포넌트 파일 구성하기
 
 특정 기능을 가진 컴포넌트 별로 폴더 구성
